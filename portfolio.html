@@ -5,39 +5,51 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
-		<link rel="stylesheet" href="./styles/styles.css" />
+		<!-- Fonts start -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Fonts end -->
+		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body class="body">
 		<!-- Header-->
 		<header class="header">
 			<nav class="header-nav">
-				<a class="logo" href="/">
+				<a class="logo link" href="/">
 					<span class="logo-text">Web</span>
 					Studio
 				</a>
-				<ul class="header-nav-list">
-					<li class="header-nav-item"><a href="./index.html">Студия</a></li>
-					<li class="header-nav-item"><a href="./portfolio.html">Портфолио</a></li>
-					<li class="header-nav-item"><a href="">Контакты</a></li>
+				<ul class="header-nav-list list">
+					<li class="header-nav-item"><a class="header-nav-link link" href="./index.html">Студия</a></li>
+					<li class="header-nav-item"><a class="header-nav-link link" href="./portfolio.html">Портфолио</a></li>
+					<li class="header-nav-item"><a class="header-nav-link link" href="">Контакты</a></li>
 				</ul>
 			</nav>
-			<ul class="contact-list">
-				<li class="contact-mail"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-				<li class="contact-phone"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+			<ul class="contact-list list">
+				<li class="contact-mail">
+					<a class="contact-mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+				</li>
+				<li class="contact-phone">
+					<a class="contact-phone-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+				</li>
 			</ul>
 		</header>
 		<main class="main">
 			<!--Portfolio-->
 			<section class="section-portfolio">
 				<h1 class="portfolio-title" hidden>Portfolio</h1>
-				<ul class="portfolio-filter-list">
+				<ul class="portfolio-filter-list list">
 					<li class="portfolio-filter-item"><button class="filter-btn" type="button">Все</button></li>
 					<li class="portfolio-filter-item"><button class="filter-btn" type="button">Веб-сайты</button></li>
 					<li class="portfolio-filter-item"><button class="filter-btn" type="button">Приложения</button></li>
 					<li class="portfolio-filter-item"><button class="filter-btn" type="button">Дизайн</button></li>
 					<li class="portfolio-filter-item"><button class="filter-btn" type="button">Маркетинг</button></li>
 				</ul>
-				<ul class="portfolio-list">
+				<ul class="portfolio-list list">
 					<li class="portfolio-item">
 						<img class="portfolio-item-img" src="./images/portfolio/img_1.jpeg" alt="Технокряк" width="370" />
 						<h2 class="portfolio-item-title">Технокряк</h2>
@@ -103,16 +115,16 @@
 		</main>
 		<!--Footer-->
 		<footer class="footer">
-			<a class="logo" href="/">
+			<a class="logo link" href="/">
 				<span class="logo-text">Web</span>
 				Studio
 			</a>
 			<address class="address">
 				<p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
 				<br />
-				<a class="address-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+				<a class="address-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
 				<br />
-				<a class="address-phone" href="tel:+380961111111">+38 096 111 11 11</a>
+				<a class="address-phone link" href="tel:+380961111111">+38 096 111 11 11</a>
 			</address>
 		</footer>
 	</body>
