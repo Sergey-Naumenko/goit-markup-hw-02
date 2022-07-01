@@ -13,6 +13,7 @@
     /* bg colors */
     --bg-cl-dark: #2F303A;
     --bg-cl-light: #F5F4FA;
+    --bg-btn-cl-hover: #188CE8;
 
 }
 
@@ -111,6 +112,10 @@ body {
     color: var(--logo-withe-cl);
     background-color: var(--accent-txt-cl);
     cursor: pointer;
+}
+
+.hero-btn:hover {
+    background-color: var(--bg-btn-cl-hover);
 }
 
 /* Advantage */
